@@ -1,0 +1,54 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+
+*{
+  text-decoration: none;
+  font-family: Open Sans, Arial;
+  color: aliceblue;
+}
+
+body{
+  padding: 10px;
+  background-color: #0f0f0f;
+  text-align: center;
+  align-items: center;
+}
+
+button{
+  display: block;
+  margin: auto;
+  margin-bottom: 2em;
+}
+
+.card{
+  background-color: #181C14;
+  max-width: 45%;
+  min-width: 30%;
+  padding: 5%;
+  margin: auto 30%;
+  text-align: center;
+  border-radius: 16px;
+}
+
+.profile{
+  height: 100px;
+  width: 100px;
+  overflow: hidden;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.role{
+  color: #8FD14F;
+}
+.social-btn{
+  background-color: #3C3D37;
+  border: none;
+  padding: 5px 10px;
+  width: 100%;
+  border-radius: 8px;
+  font-size: 1em;
+  font-weight: bold;
+}
+
